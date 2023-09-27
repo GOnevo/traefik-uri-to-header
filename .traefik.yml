@@ -1,0 +1,7 @@
+displayName: Requested URI to custom header
+type: middleware
+import: github.com/gonevo/traefik-uri-to-header
+summary: A plugin that writes the requested URI to a custom header
+testData:
+  Enabled: true
+  HeaderName: x-requested-uri
